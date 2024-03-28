@@ -8,6 +8,13 @@ This contents the approach for FastAPI with MySQL
 
 python3 -m venv env
 source env/bin/activate
+
+pip install poetry
+
+[https://python-poetry.org/]
+
+### Install dependencies from requirements.txt
+
 pip install -r requirements.txt
 
 ### Prereqs

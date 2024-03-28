@@ -34,7 +34,7 @@ from sqlalchemy import (
 from sqlalchemy.orm import Session, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm.session import sessionmaker
-from models.base import DB_SCHEMA
+from app.database.models.base import DB_SCHEMA
 
 # SQLAlchemy setup
 URL_DATABASE = f"mysql+pymysql://root:admin123@localhost:3306/{DB_SCHEMA}"
